@@ -1,0 +1,9 @@
+Package: rkma
+Title: rkma: R Korean Morphological Analyzer. An R interface to KKMA.
+Version: 0.1.0
+Authors@R: person("Hyun-Jo", "You", , "youhyunjo@gmail.com", role = c("aut", "cre"))
+Description: An R interface to KKMA (version 2.0). The KKMA is an open source Java library for the Korean NLP developed by IDS lab, SNU. It supports morphological analysis, sentence segmentation, part-of-speech tagging and keyword extraction.
+Depends: R (>= 3.2.2), rJava (>= 0.9-7)
+SystemRequirements: Java (>= 1.6.0)
+License: GPL-3
+LazyData: true

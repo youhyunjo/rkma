@@ -44,7 +44,7 @@ objects.
 ```
 text <- "안녕하세요. 형태소분석기를 사용해보세요."
 rma <- new(RMorphemeAnalyzer)
-rsentlst <- rma$analyze()      ## RSentenceList
+rsentlst <- rma$analyze(text)      ## RSentenceList
 ```
 
 ```

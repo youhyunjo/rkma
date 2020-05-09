@@ -1,4 +1,6 @@
 .assign.classnames <- function() {
+    .jaddLibrary('kkma', 'inst/java/org.snu.ids.ha.jar')
+    .jaddClassPath('inst/java/rkma.jar')
     MorphemeAnalyzer <<- J("org/snu/ids/ha/ma/MorphemeAnalyzer")
     KeywordExtractor <<- J("org/snu/ids/ha/index/KeywordExtractor")
     POSTag <<- J("org/snu/ids/ha/constants/POSTag")
